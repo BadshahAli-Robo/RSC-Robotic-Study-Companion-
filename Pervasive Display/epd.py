@@ -8,6 +8,8 @@ class EPD:
         self.dc = dc
         self.rst = rst
         self.busy = busy
+        self.width = 296  # Update based on your display's resolution
+        self.height = 152
 
         # Initialize GPIO pins
         self.cs.init(Pin.OUT, value=1)
