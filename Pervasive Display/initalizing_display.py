@@ -22,3 +22,10 @@ print("EPD Initialization completed.")
 print("Clearing EPD...")
 epd.clear()
 print("EPD cleared.")
+
+
+##for checking the behavior of busy pin
+# print("Checking BUSY pin...")
+# while busy.value() == 1:
+#     print("Display is busy...")
+
